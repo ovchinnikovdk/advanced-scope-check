@@ -1,0 +1,26 @@
+{
+  "name": "advanced-scope-check",
+  "version": "1.0.0",
+  "description": "Advanced Scope Checking For IBM Apiconnect Oauth2",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.ca.sbrf.ru:7999/~sbt-ovchinnikov-dk/advanced-scope-check.git"
+  },
+  "author": "Dmitriy Ovchinnikov",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.3",
+    "express": "^3.5.3",
+    "method-override": "^1.0.0",
+    "morgan": "^1.0.0",
+    "nconf": "^0.9.1",
+    "serve-favicon": "^2.5.0",
+    "winston": "^2.4.2"
+  }
+}

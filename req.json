@@ -1,0 +1,17 @@
+{"context-root" : "checking",
+ "resource" : "accountinfo",
+ "method" : "GET",
+ "api-scope-required" : ["jointaccount"],
+ "access_token" : {"client_id" : "2cd71759-1003-4a1e-becb-0474d73455f3",
+                   "not_after" : 174364070,
+                   "not_after_text" : "2017-07-11T02:27:50Z",
+                   "not_before" : 174360470,
+                   "not_before_text" : "2017-07-11T01:27:50Z",
+                   "grant_type" : "code",
+                   "consented_on" : 1499736470,
+                   "consented_on_text" : "2059-07-11T01:27:50Z",
+                   "resource_owner" : "cn=spoon,email=spoon@poon.com",
+                   "scope" : "jointaccount mutual",
+                   "miscinfo" : "[r:gateway]"
+                 }
+}
