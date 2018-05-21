@@ -1,0 +1,2 @@
+# Advanced scope check
+[ ![Codeship Status for ovchinnikovdk/advanced-scope-check](https://app.codeship.com/projects/084c51b0-3f25-0136-a340-3af89b4c3e68/status?branch=master)](https://app.codeship.com/projects/290815)
