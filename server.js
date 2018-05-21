@@ -84,7 +84,7 @@ app.post('/introspect', function(req, res){
   res.json({active : true});
 });
 
-var fs = require('fs');
+/*var fs = require('fs');
 var privateKey = fs.readFileSync('key.pem');
 var certificate = fs.readFileSync('cert.pem');
 
@@ -92,7 +92,7 @@ var credentials = {key : privateKey, cert: certificate};
 var https = require('https');
 var httpsServer = https.createServer(credentials, app);
 
-/*httpsServer.listen(config.get('https_port'), function(){
+httpsServer.listen(config.get('https_port'), function(){
   console.log('httpsServer running on port ' + config.get('https_port'));
 }); */
 
