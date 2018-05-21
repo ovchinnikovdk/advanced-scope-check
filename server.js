@@ -42,7 +42,7 @@ app.get('/authorize.do', function(req, res){
 });
 
 
-/*app.get('/token.do', function(req, res) {
+app.get('/token.do', function(req, res) {
   console.log('GET token.do');
   res.json({client_id : "5e0a9cbc-bd80-462b-9c79-fc266374bb31",
                     not_after : 174364070,
@@ -56,7 +56,7 @@ app.get('/authorize.do', function(req, res){
                     scope : "jointaccount mutual",
                     miscinfo : "[r:gateway]"
                   });
-});*/
+});
 app.post('/token.do', function(req, res){
   console.log('URI: /access_token');
   //console.log(req);
