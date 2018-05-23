@@ -35,6 +35,12 @@ app.post('/check', function(req, res) {
   });
 });
 
+
+app.get('/', function(req, res){
+	console.log(req);
+});
+
+
 app.get('/authorize.do', function(req, res){
   res.statusCode = 200;
   res.header('x-selected-scope', 'info');
