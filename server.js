@@ -38,6 +38,8 @@ app.post('/check', function(req, res) {
 
 app.get('/', function(req, res){
 	console.log(req);
+	res.statusCode = 200;
+	res.json({status: "OK"});
 });
 
 
