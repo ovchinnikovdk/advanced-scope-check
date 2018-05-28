@@ -87,7 +87,7 @@ app.post('/token.do', function(req, res){
 
 app.post('/introspect', function(req, res){
   console.log('URI: /introspect');
-  //console.log(req);
+  console.log(req);
   res.statusCode = 200;
   res.json({active : true});
 });
